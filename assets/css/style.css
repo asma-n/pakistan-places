@@ -27,7 +27,8 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* navigation links*/
+
+/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -57,18 +58,12 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero-image cover text */
+/* hero-image */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
-    position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: #fff;
 }
 
 #hero-image {
@@ -91,51 +86,23 @@ h1, h2 {
         transform: scale(1.1); 
     }
 }
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(245, 77, 65, 0.7);
-    
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-}
-
 
 #ethics {
     height: 600px;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
-    
+#about {
+	padding: 40px;
+	text-align: center;
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
+#about p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+#about h3 {
+	margin: 30px 0;
+	
 }
-
-
-
